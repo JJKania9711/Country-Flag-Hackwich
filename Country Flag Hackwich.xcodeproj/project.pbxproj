@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E263C9D29858F7400A0C74D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263C9C29858F7400A0C74D /* ProgressBar.swift */; };
+		4E263CA12985923600A0C74D /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263CA02985923600A0C74D /* AnswerRow.swift */; };
+		4E263CA32985963800A0C74D /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263CA22985963800A0C74D /* QuestionView.swift */; };
+		4E263CA52985988200A0C74D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263CA42985988200A0C74D /* CustomButton.swift */; };
+		4E263CA729859B7D00A0C74D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263CA629859B7D00A0C74D /* Data.swift */; };
+		4E263CAB29859E2700A0C74D /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263CAA29859E2700A0C74D /* QuizManager.swift */; };
+		4EE60D7D2976F701002F6798 /* Country_Flag_HackwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE60D7C2976F701002F6798 /* Country_Flag_HackwichApp.swift */; };
+		4EE60D7F2976F701002F6798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE60D7E2976F701002F6798 /* ContentView.swift */; };
+		4EE60D812976F703002F6798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE60D802976F703002F6798 /* Assets.xcassets */; };
+		4EE60D842976F703002F6798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE60D832976F703002F6798 /* Preview Assets.xcassets */; };
+		4EE60D8B29784A87002F6798 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE60D8A29784A87002F6798 /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E263C9C29858F7400A0C74D /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		4E263CA02985923600A0C74D /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		4E263CA22985963800A0C74D /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		4E263CA42985988200A0C74D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = ../CustomButton.swift; sourceTree = "<group>"; };
+		4E263CA629859B7D00A0C74D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4E263CAA29859E2700A0C74D /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		4EE60D792976F701002F6798 /* Country Flag Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Flag Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE60D7C2976F701002F6798 /* Country_Flag_HackwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_HackwichApp.swift; sourceTree = "<group>"; };
+		4EE60D7E2976F701002F6798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EE60D802976F703002F6798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE60D832976F703002F6798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EE60D8A29784A87002F6798 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE60D762976F701002F6798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE60D702976F701002F6798 = {
+			isa = PBXGroup;
+			children = (
+				4EE60D7B2976F701002F6798 /* Country Flag Hackwich */,
+				4EE60D7A2976F701002F6798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE60D7A2976F701002F6798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE60D792976F701002F6798 /* Country Flag Hackwich.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE60D7B2976F701002F6798 /* Country Flag Hackwich */ = {
+			isa = PBXGroup;
+			children = (
+				4EE60D7C2976F701002F6798 /* Country_Flag_HackwichApp.swift */,
+				4E263C9C29858F7400A0C74D /* ProgressBar.swift */,
+				4EE60D7E2976F701002F6798 /* ContentView.swift */,
+				4E263CAA29859E2700A0C74D /* QuizManager.swift */,
+				4E263CA629859B7D00A0C74D /* Data.swift */,
+				4E263CA42985988200A0C74D /* CustomButton.swift */,
+				4E263CA02985923600A0C74D /* AnswerRow.swift */,
+				4E263CA22985963800A0C74D /* QuestionView.swift */,
+				4EE60D802976F703002F6798 /* Assets.xcassets */,
+				4EE60D822976F703002F6798 /* Preview Content */,
+				4EE60D8A29784A87002F6798 /* Question.swift */,
+			);
+			path = "Country Flag Hackwich";
+			sourceTree = "<group>";
+		};
+		4EE60D822976F703002F6798 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4EE60D832976F703002F6798 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE60D782976F701002F6798 /* Country Flag Hackwich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE60D872976F703002F6798 /* Build configuration list for PBXNativeTarget "Country Flag Hackwich" */;
+			buildPhases = (
+				4EE60D752976F701002F6798 /* Sources */,
+				4EE60D762976F701002F6798 /* Frameworks */,
+				4EE60D772976F701002F6798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Country Flag Hackwich";
+			productName = "Country Flag Hackwich";
+			productReference = 4EE60D792976F701002F6798 /* Country Flag Hackwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE60D712976F701002F6798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4EE60D782976F701002F6798 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4EE60D742976F701002F6798 /* Build configuration list for PBXProject "Country Flag Hackwich" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE60D702976F701002F6798;
+			productRefGroup = 4EE60D7A2976F701002F6798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE60D782976F701002F6798 /* Country Flag Hackwich */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE60D772976F701002F6798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE60D842976F703002F6798 /* Preview Assets.xcassets in Resources */,
+				4EE60D812976F703002F6798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE60D752976F701002F6798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE60D8B29784A87002F6798 /* Question.swift in Sources */,
+				4EE60D7F2976F701002F6798 /* ContentView.swift in Sources */,
+				4E263CA32985963800A0C74D /* QuestionView.swift in Sources */,
+				4E263CA52985988200A0C74D /* CustomButton.swift in Sources */,
+				4E263CAB29859E2700A0C74D /* QuizManager.swift in Sources */,
+				4E263C9D29858F7400A0C74D /* ProgressBar.swift in Sources */,
+				4E263CA12985923600A0C74D /* AnswerRow.swift in Sources */,
+				4EE60D7D2976F701002F6798 /* Country_Flag_HackwichApp.swift in Sources */,
+				4E263CA729859B7D00A0C74D /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EE60D852976F703002F6798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EE60D862976F703002F6798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE60D882976F703002F6798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Country Flag Hackwich/Preview Content\"";
+				DEVELOPMENT_TEAM = 39D9C55899;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjk.Country-Flag-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE60D892976F703002F6798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Country Flag Hackwich/Preview Content\"";
+				DEVELOPMENT_TEAM = 39D9C55899;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjk.Country-Flag-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE60D742976F701002F6798 /* Build configuration list for PBXProject "Country Flag Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE60D852976F703002F6798 /* Debug */,
+				4EE60D862976F703002F6798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE60D872976F703002F6798 /* Build configuration list for PBXNativeTarget "Country Flag Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE60D882976F703002F6798 /* Debug */,
+				4EE60D892976F703002F6798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE60D712976F701002F6798 /* Project object */;
+}
